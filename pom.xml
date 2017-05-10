@@ -23,15 +23,6 @@
 
 
 
-  <dependencies>
-    <dependency>
-      <groupId>jenkins</groupId>
-      <artifactId>jenkins</artifactId>
-      <version>2.14.4</version>
-    </dependency>
-  </dependencies>
-
-
   
  
 
