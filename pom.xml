@@ -21,18 +21,7 @@
     </snapshotRepository>
   </distributionManagement>
 
-  <proxies>
-    <proxy>
-      <id>jenkin</id>
-      <active>true</active>
-      <protocol>http</protocol>
-      <username>admin</username>  <!-- Put your username here -->
-      <password>admin123</password>  <!-- Put your password here -->
-      <host>http://54.213.235.84</host>   <!-- Put the IP address of your proxy server here -->
-      <port>8081</port>            <!-- Put your proxy server's port number here -->
-      <nonProxyHosts>http://54.213.235.84:8081/nexus/content/repositories/jenkins/</nonProxyHosts> <!-- Do not use this setting unless you know what you're doing. -->
-    </proxy>    
-  </proxies>
+ 
 
 
   
