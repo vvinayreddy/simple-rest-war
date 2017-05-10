@@ -10,14 +10,43 @@
   </properties>
    
  
-<distributionManagement>
-  <repository>
-    <id>jenkins</id>
-    <url>http://54.213.235.84:8081/nexus/content/repositories/jenkins</url>
-    <username>admin</username>
-     <password>admin123</password>
-  </repository>
-</distributionManagement>
+<settings>
+  <mirrors>
+    <mirror>
+      <!--This sends everything else to /public -->
+      <id>jenkin</id>
+      <mirrorOf>*</mirrorOf>
+      <url>http://54.213.235.84:8081/nexus/content/groups/jenkin/</url>
+    </mirror>
+  </mirrors>
+  <profiles>
+    <profile>
+      <id>jenkin</id>
+      <!--Enable snapshots for the built in central repo to direct -->
+      <!--all requests to nexus via the mirror -->
+      <repositories>
+        <repository>
+          <id>jenkin</id>
+          <url>http://54.213.235.84:8081/nexus/content/groups/jenkin</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+        </repository>
+      </repositories>
+     <pluginRepositories>
+        <pluginRepository>
+          <id>jenkin</id>
+          <url>http://54.213.235.84:8081/nexus/content/groups/jenkin/</url>
+          <releases><enabled>true</enabled></releases>
+          <snapshots><enabled>true</enabled></snapshots>
+        </pluginRepository>
+      </pluginRepositories>
+    </profile>
+  </profiles>
+  <activeProfiles>
+    <!--make the profile active all the time -->
+    <activeProfile>jenkin</activeProfile>
+  </activeProfiles>
+</settings>
   
  
 
