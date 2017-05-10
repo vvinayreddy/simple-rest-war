@@ -8,6 +8,13 @@
   <properties>
     <jersey.version>2.13</jersey.version>
   </properties>
+  
+  <distributionManagement>
+  <snapshotRepository>
+    <id>snapshots</id>
+    <url>http://54.213.235.84:8081/nexus/content/repositories/snapshots</url>
+  </snapshotRepository>
+</distributionManagement>
 
   <dependencies>
     <dependency>
