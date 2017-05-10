@@ -16,6 +16,14 @@
     <url>http://54.213.235.84:8081/nexus/content/repositories/jenkins</url>
   </repository>
 </distributionManagement>
+  
+  <servers>
+    <server>
+      <id>jenkins</id>  <!-- must match this -->
+      <username>admin</username>
+      <password>admin123</password>
+    </server>
+  </servers>
 
 
 
