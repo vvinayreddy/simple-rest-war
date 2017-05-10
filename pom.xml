@@ -16,15 +16,7 @@
     <url>http://54.213.235.84:8081/nexus/content/repositories/jenkins</url>
   </repository>
 </distributionManagement>
-  <settings>
-  <servers>
-    <server>
-      <id>jenkins</id>
-      <username>admin</username>
-      <password>admin123</password>
-    </server>
-  </servers>
-</settings>
+
 
 
   <dependencies>
