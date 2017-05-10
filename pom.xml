@@ -8,6 +8,11 @@
   <properties>
     <jersey.version>2.13</jersey.version>
   </properties>
+    <parent>
+      <groupId>org.sonatype.oss</groupId>
+      <artifactId>oss-parent</artifactId>
+      <version>7</version>
+   </parent>
 <distributionManagement>
   <repository>
     <id>jenkins</id>
