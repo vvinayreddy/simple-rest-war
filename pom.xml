@@ -12,7 +12,7 @@
 
   <distributionManagement>
   <snapshotRepository>
-    <id>oss-rh</id>
+    <id>ossrh</id>
     <url>http://54.187.29.62:8081/nexus/content/groups/public/</url>
   </snapshotRepository>
 </distributionManagement>
