@@ -12,8 +12,8 @@
 
   <distributionManagement>
   <snapshotRepository>
-    <id>100</id>
-    <url>http://54.187.29.62:8081/nexus/content/repositories/100</url>
+    <id>public</id>
+    <url>http://54.187.29.62:8081/nexus/content/groups/public/</url>
   </snapshotRepository>
 </distributionManagement>
 
