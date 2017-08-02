@@ -13,19 +13,13 @@
   <distributionManagement>
     <repository>
       <id>releases</id>
-      <url>http://54.213.235.84:8081/nexus/content/repositories/jenkins/</url>
+      <url>http://54.187.29.62:8081/nexus/content/repositories/jenkins/</url>
     </repository>
     <snapshotRepository>
       <id>snapshots</id>
-      <url>http://54.213.235.84:8081/nexus/content/repositories/jenkins/</url>
+      <url>http://54.187.29.62:8081/nexus/content/repositories/100/</url>
     </snapshotRepository>
   </distributionManagement>
-
- 
-
-
-  
- 
 
   <dependencies>
     <dependency>
