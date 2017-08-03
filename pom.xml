@@ -16,7 +16,7 @@
     <name>Releases</name>
     <url>http://54.187.29.62:8081/nexus/content/repositories/releases</url>
   </repository>
-
+</distributionManagement>
 
   <dependencies>
     <dependency>
