@@ -10,10 +10,17 @@
   </properties>
    
 
-  <distributionManagement>
+<distributionManagement>
+  <repository>
+    <id>releases</id>
+    <url>http://54.187.29.62:8081/nexus/content/repositories/releases</url>
+  </repository>
+</distributionManagement>
+  
+<distributionManagement>
   <snapshotRepository>
-    <id>ossrh</id>
-    <url>http://54.187.29.62:8081/nexus/content/groups/public/</url>
+    <id>snapshots</id>
+    <url>http://54.187.29.62:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
 
