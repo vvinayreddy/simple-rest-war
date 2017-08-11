@@ -2,7 +2,7 @@ node {
    // Mark the code checkout 'stage'....
    stage 'Checkout'
    
-   git url: 'https://github.com/goutammantri/simple-rest-war.git'
+   git url: 'git@github.com:TTFHW/jenkins_pipeline_shell_scripts.git'
 
    // Get the maven tool.
    // ** NOTE: This 'M3' maven tool must be configured
