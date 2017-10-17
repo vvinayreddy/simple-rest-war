@@ -12,7 +12,7 @@
 <distributionManagement>
     <repository>
         <id>java_repo</id>
-        <name>simpleWebApp</name>
+        <name>java_repo</name>
         <url>http://34.213.68.232/svn/java_repo/</url>
         <uniqueVersion>false</uniqueVersion>
     </repository>
