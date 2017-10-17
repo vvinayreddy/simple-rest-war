@@ -13,7 +13,7 @@
     <repository>
         <id>java_repo</id>
         <name>simpleWebApp</name>
-        <url>http://34.213.68.232/svn/java_repo/simpleWebApp/branches/</url>
+        <url>http://34.213.68.232/svn/java_repo/simpleWebApp/</url>
         <uniqueVersion>false</uniqueVersion>
     </repository>
 </distributionManagement>
