@@ -9,6 +9,10 @@
     <jersey.version>2.13</jersey.version>
   </properties>
     
+  <scm>
+   <connection>scm:svn:http://34.213.68.232/svn/</connection>
+   <url>http://34.213.68.232/svn/</url>
+</scm>
 <distributionManagement>
     <repository>
         <id>java_repo</id>
